@@ -1,0 +1,108 @@
+body {
+    background: rgb(48, 45, 45);
+    color: rgb(235, 23, 224);
+}
+
+header {
+    display: bloxk;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    padding: 2%;
+}
+
+#header-p {
+    color: white;
+    margin: 3%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+.snippets {
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+     
+}
+
+
+
+.body{
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+    
+    width: 350px;
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 300px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    background: rgb(48, 45, 45);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    padding: 4%;
+    width:300px;
+}
+
+
+.snippets:hover .body,
+.snippets:hover .card h2 {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
+    0 0 15px rgba(232, 102, 236, 1);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.selecttext {
+    user-select: all;
+}
+
+.selecttext::selection {
+    background: blue;
+
+}
+
+
+
+.gradient {
+    background: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 103,236, 0.6) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    height: 70%;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#indent {
+    margin-left: 20px;
+}
+
