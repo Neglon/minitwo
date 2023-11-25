@@ -33,7 +33,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-     
+    flex-basis: 33.33%;
 }
 
 
@@ -42,7 +42,6 @@ main {
     border-style: dashed;
     border-color: white;
     border-width: 2px;
-    
     width: 350px;
     padding-left: 15px;
     padding-right: 10px;
